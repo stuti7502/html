@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Flipkart</title>
+        <link rel="icon" type="image/x-icon" href="flipkart.jfif">
+        <script src="https://kit.fontawesome.com/5594ca95a7.js" crossorigin="anonymous"></script>
+        <style>
+            body{
+                background-color: #e1e3e8;
+            }
+            .navbar select{
+                border: none;
+                background-color: #346eeb;
+                color: white;
+                margin-left: 2.5%;
+                margin-right: 2.5%;
+                font-size: 1.3em;
+                width: 3.4em;
+            }
+            /* header{
+                
+                background-color: #346eeb;
+                width: 100%; 
+                height: 55px;
+            } */
+            a{
+                text-decoration: none;
+            }
+            .navbar{
+                background-color: #346eeb;
+                width: 100%; 
+                height: 60px;
+                display: inline-block;
+            }
+            .login{
+                color: #346eeb;
+                background-color: white;
+                margin-left: 7%;
+                font-size: 20px;
+                height: 30px;
+                padding: 5px;
+                padding-left: 30px;
+                padding-right: 30px;
+                margin-top: 11px;
+            }
+            .categories{
+                height: 120px;
+                background-color: white;
+                /* text-align: center; */
+                width: 100%;
+                display: inline-block;
+                padding-left: 300px;
+            }
+            .deals{
+                margin-top: 15px;
+                height: 400px;
+                background-color: white;
+                margin-left: 100px;
+                box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.4);;
+                width: 75%;
+                
+            }
+            .beginning{
+                background-color: white;
+                height: 400px;
+                margin-right: 100px;
+                margin-left: 5px;
+                width: 245px;
+                padding-left: 5px;
+                box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+                margin-top: 12px;
+
+            }
+           
+            .music{
+                margin-top: 5px;
+                height: 400px;
+                background-color: white;
+                margin-left: 100px;
+                margin-right: 100px;
+                box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.4);;
+                
+            }
+            i{
+                color: white;
+            }
+            .navbar img{
+                /* padding-left: 500px; */
+                height: 25px;
+                margin-top: 7px;
+                width: 75px;
+            }
+            input[type="text"]{
+                width: 40.9em;
+                height: 2.45em;
+                margin-top: 1em;
+                margin-left: 1.36em;
+            }
+            .categories span{
+                display: inline-block;
+                text-align: center;
+                padding-right: 45px;
+            }
+            figcaption{
+                color: black;
+            }
+            figcaption:hover{
+                color: blue;
+            }
+            .categories select{
+                border: none;
+                width: 70px;
+            }
+            .line{
+                border-bottom: 2px solid #e1e3e8;
+                height: 75px;
+            }
+            
+            .logo{
+                display: block;
+                float: left;
+                padding-left: 20%;
+                font-style: italic;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 12px;
+            }
+            .logo img:first-child{
+                padding-top: 3px;
+                height: 17px;
+            }
+            .logo img:nth-child(3){
+                height: 10px;
+                width: 10px;
+            }
+            .navbar a:hover{
+                text-decoration-line: underline;
+                text-decoration-color: white;
+            }
+            .container{
+                display: flex;
+            }
+            
+        </style>
+    </head>
+    <body>
+        
+        <div class="navbar">
+            <div class="logo">
+            <img src="logo4.png"><br>
+            <a href="#"><span style="color: white;">Explore</span> <span style="color: #fce90d;">Plus</span><img src="plus.png"> </a></div>
+            <input type="text" placeholder="Search for products, brands and more" >
+            <a href="#" class="login">Login</a>
+            <select name="more_options" id="more_options" >
+                <optgroup>
+                <option value="more">More</option>
+                <option value="...">...</option>
+                <option value="....">...</option>
+                <option value="..."></option>
+                </optgroup>
+            </select> 
+            <i class="fa-sharp fa-solid fa-cart-shopping"></i>
+            <a href="#" style="color: white; font-size: 17px;">Cart</a>
+        </div>
+        
+        <div class="categories">
+            <span><a href="#"><img src="1.png"><figcaption>Offers</figcaption></a></span>
+            <span><a href="#"><img src="2.png"><figcaption>Grocery</figcaption></a></span>
+            <span><a href="#"><img src="3.png"><figcaption>Mobiles</figcaption></a></span>
+            <span><a href="#"><img src="4.png"><figcaption>Fashion</figcaption></a></span>
+            <span><a href="#"><img src="5.png"><figcaption>Electronics</figcaption></a></span>
+            <span><a href="#"><img src="6.png"><figcaption>Home</figcaption></a></span>
+            <span><a href="#"><img src="7.png"><figcaption>Appliances</figcaption></a></span>
+            <span><a href="#"><img src="8.png"><figcaption>Travel</figcaption></a></span>
+            <span><a href="#"><img src="9.png"><figcaption>Beauty, Toys & More</figcaption></a></span>
+        </div>
+        <div class="container">
+            
+            <div class="deals">
+                <div class="line">
+
+                </div>
+
+            </div>
+            <div class="beginning">
+
+            </div>
+            
+        </div>
+        <div class="music">
+            <div class="line">
+
+            </div>
+
+        </div>
+    </body>
+</html>
