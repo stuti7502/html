@@ -4,4 +4,9 @@ A full view of website
 
 Screenshots of different view on screen
 
-
+images/screeshot1.png
+images/screeshot2.png
+images/screenshot3.png
+images/screenhot4.png
+images/screeshot5.png
+images/screenshot 6.png
