@@ -6,354 +6,27 @@
         <script src="https://kit.fontawesome.com/5594ca95a7.js" crossorigin="anonymous"></script>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-        <style>
-            body{
-                background-color: #e1e3e8;
-            }
-            a{
-                text-decoration: none;
-            }
-            .navbar select{
-                border: none;
-                background-color: #346eeb;
-                color: white;
-                margin-left: 2.5%;
-                margin-right: 2.5%;
-                font-size: 1.3em;
-                width: 70px;
-            }
-            .navbar{
-                background-color: #346eeb;
-                width: 100%; 
-                height: 60px;
-                display: inline-block;
-            }
-            .login{
-                color: #346eeb;
-                background-color: white;
-                margin-left: 7%;
-                font-size: 17px;
-                height: 30px;
-                padding: 4px;
-                padding-left: 40px;
-                padding-right: 40px;
-                margin-top: 1px;
-            }
-            .logo{
-                display: block;
-                float: left;
-                padding-left: 20%;
-                font-style: italic;
-                font-family: Arial, Helvetica, sans-serif;
-                font-size: 12px;
-            }
-            .logo img:first-child{
-                padding-top: 3px;
-                height: 17px;
-            }
-            .logo img:nth-child(3){
-                height: 10px;
-                width: 10px;
-            }
-            .navbar a:hover{
-                text-decoration-line: underline;
-                text-decoration-color: white;
-            }
-            .categories{
-                height: 10%;
-                background-color: white;
-                /* text-align: center; */
-                width: 100%;
-                display: inline-block;
-                padding-left: 18%;
-                padding-bottom: 1.5%;
-            }
-            
-            .navbar i{
-                color: white;
-            }
-            .navbar img{
-                /* padding-left: 500px; */
-                height: 25px;
-                margin-top: 7px;
-                width: 75px;
-            }
-            input[type="text"]{
-                width: 32%;
-                height: 2.45em;
-                margin-top: 0.2em;
-                margin-left: 1.36em;
-            }
-            .categories span{
-                display: inline-block;
-                text-align: center;
-                padding-right: 45px;
-            }
-            .categories figcaption{
-                color: black;
-            }
-            .categories a:hover figcaption{
-                color: blue;
-            }
-            .line{
-                border-bottom: 2px solid #e1e3e8;
-                height: 30px;
-            }
-            
-            .container1{
-                display: flex;
-            }
-            .deals button{
-                border: none;
-                float: right;
-                padding: 10px;
-                padding-left: 20px;
-                padding-right: 20px;
-                color: white;
-                background-color:#346eeb;
-                margin: 10px;
-                margin-top: 13px;
-                margin-right: 20px;
-            }
-            .music button{
-                border: none;
-                float: right;
-                padding: 10px;
-                padding-left: 20px;
-                padding-right: 20px;
-                color: white;
-                background-color:#346eeb;
-                margin: 10px;
-                margin-right: 20px;
-            }
-            .deals{
-                margin-top: 15px;
-                height: 400px;
-                background-color: white;
-                margin-left: 5.5%;
-                box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.4);;
-                width: 76%;
-                
-            }
-            .beginning{
-                background-color: white;
-                height: 100%;
-                margin-left: 10px;
-                width: 240px;
-                /* padding-left: 3px; */
-                box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.4);
-                margin-top: 12px;
-
-            }
-            .categories i{
-                color: black;
-            }
-            
-            .container1 span{
-                display: inline-block;
-                padding-left: 5px;
-            }
-            .deals img{
-                width: 175px;
-                padding: 0;
-                margin: 8px;
-                height: 180px;
-            }
-            .deals figcaption{
-                text-align: center;
-                line-height: 25px;
-            }
-            .music{
-                margin-top: 10px;
-                height: 400px;
-                background-color: white;
-                margin-left: 100px;
-                margin-right: 100px;
-                width: 90%;
-                box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.4);
-                
-            }
-            .music span{
-                display: inline-block;
-            }
-            .music img{
-                width: 175px;
-                padding: 0;
-                margin: 5px;
-                height: 180px;
-            }
-            .music figcaption{
-                text-align: center;
-                line-height: 25px;
-            }
-            .music line{
-                height: 40px;
-            }
-           .row {
-            width: 90.5%;
-            margin-left: 5%;
-           }
-           .menu-btn1 {
-                background-color: #346eeb;
-                color: white;
-                
-                font-size: 20px;
-                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-                border: none;
-            }
-            .dropdown-menu1 {
-                /* position: relative; */
-                display: inline-block;
-                margin-left: 30px;
-                margin-right: 50px;
-            }
-            .menu-content1 {
-                display: none;
-                position: absolute;
-                background-color: white;
-                min-width: 160px;
-                z-index: 1;
-            }
-            .links1 {
-                color: black;
-                padding: 12px 16px;
-                text-decoration: none;
-                display: block;
-                font-size: 18px;
-                
-            }
-            .links1:hover {
-                background-color: white;
-            }
-            .dropdown-menu1:hover .menu-content1 {
-                display: block;
-            }
-            .menu-content1 i{
-                    color: #346eeb;
-            }
-            footer {
-                left: 0;
-                bottom: 0;
-                width: 100%;
-                background-color: #346eeb;
-                color: white;
-                text-align: center;
-                font-size: 20px;
-            }
-            footer a{
-                color: white;
-            }
-
-           
-            @media screen and (max-width: 1000px) {
-                /* .buttons{
-                    display: none;
-                }
-                .dropdown1 {
-                    position: relative;
-                    display: inline-block;
-                    padding-top: 4%;
-                    margin-left: 45%
-                }
-                .dropbtn1{
-                    background-color: #346eeb;
-                    border: none;
-                }
-                .dropbtn1 i{
-                    width: 20px;
-                }
-                .drop-content1 {
-                    display: none;
-                    position: absolute;
-                    background-color: white;
-                    min-width: 160px;
-                    z-index: 1;
-                    left: unset;
-                    right: 0%;
-                }
-                .links1 {
-                    color: black;
-                    padding: 12px 16px;
-                    text-decoration: none;
-                    display: block;
-                    font-size: 18px;
-                    font-weight: bold;
-                    border-bottom: 1px solid black;
-                }
-                .links1:hover {
-                    background-color: #346eeb;
-                    color: white;
-                }
-                .dropdown1:hover .drop-content1 {
-                    display: block;
-                }
-                .dropdown1:hover .dropbtn1 {
-                    background-color: white;
-                }
-                .dropdown1:hover .dropbtn1 i{
-                    color: blue;
-                } */
-                .navbar{
-                    width: 100vh;
-
-                }
-                .categories{
-                    width: 100vh;
-                    padding-left: 0;
-                    margin-left: 0;
-                }
-                .categories span{
-                    padding: 1%;
-                }
-                .logo{
-                    padding-left: 5%;
-                }
-                .container1{
-                    display: block;
-                }
-                .deals{
-                    height: 1200px;
-                    width: 90%;
-                }
-                .beginning{
-                    margin-left: 4%;
-                    width: 232px;
-                }
-                .music{
-                    margin-left: 5%;
-                    height: 950px;
-                }              
-            }
-            @media (min-width:1000px) and (max-width:1700px) {
-                .deals{
-                    height: 700px;
-                }
-                .music{
-                    height: 400px;
-                }
-                .container1{
-                    display: block;
-                }
-                .beginning{
-                    margin-left: 5%;
-                }
-                .music{
-                    margin-left: 5%;
-                }
-            }
-           
-        </style>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         
         <div class="navbar">
             <div class="logo">
             <img src="images/logo4.png"><br>
-            <a href="#"><span style="color: white;">Explore</span> <span style="color: #fce90d;">Plus</span><img src="images/plus.png"> </a></div>
+            <a href="#"><span style="color: white;">Explore</span> <span style="color: #fce90d;">Plus</span><img src="images/plus.png"></a></div>
             <div class="buttons">
-            <input type="text" placeholder="Search for products, brands and more" ><i style="color: #346eeb; position: absolute; right: 43.5%; top: 35%;"class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" placeholder="Search for products, brands and more" ><i style="color: #346eeb; position: absolute; right: 46.5%; top: 35%;"class="fa-solid fa-magnifying-glass"></i>
             
-            <a href="#" class="login">Login</a>
+            <div class="dropdown-menu2">
+                <button class="menu-btn2">Login</button>
+                <div class="menu-content2">
+                <a class="links2" href="#"><i class="fa-solid fa-user"></i> My profile</a>
+                <a class="links2" href="#"><i class="fa-solid fa-wallet"></i> Order</a>
+                <a class="links2" href="#"><i class="fa-solid fa-heart"></i> Wishlist</a>
+                <a class="links2" href="#"><i class="fa-solid fa-ticket-simple"></i> Rewards</a>
+                </div>
+                </div>
+            
             <!-- <select name="more_options" id="more_options" >
                 <optgroup>
                 <option value="more">More</option>
@@ -473,11 +146,11 @@
         </div>
         <br>
         <footer>
-            <a href="#"><i class="fa-solid fa-phone"></i> Contact Us </a><br>
-            <a href="#"><i class="fa-solid fa-circle-info"></i> About Us </a><br>
-            <a href="#"><i class="fa-solid fa-briefcase"></i> Careers </a><br>
-            <a href="#"><i class="fa-solid fa-question"></i> FAQ </a><br>
-            <a href="#"><i class="fa-solid fa-key"></i> Privacy </a><br>
+            <a href="#"><i class="fa-solid fa-phone"></i> Contact Us </a>
+            <a href="#"><i class="fa-solid fa-circle-info"></i> About Us </a>
+            <a href="#"><i class="fa-solid fa-briefcase"></i> Careers </a>
+            <a href="#"><i class="fa-solid fa-question"></i> FAQ </a>
+            <a href="#"><i class="fa-solid fa-key"></i> Privacy </a>
         </footer>
     </body>
 </html>
