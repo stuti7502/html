@@ -4,6 +4,8 @@
         <title>Flipkart</title>
         <link rel="icon" type="image/x-icon" href="images/flipkart.jfif">
         <script src="https://kit.fontawesome.com/5594ca95a7.js" crossorigin="anonymous"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
         <style>
             body{
                 background-color: #e1e3e8;
@@ -32,10 +34,10 @@
                 margin-left: 7%;
                 font-size: 20px;
                 height: 30px;
-                padding: 5px;
-                padding-left: 30px;
-                padding-right: 30px;
-                margin-top: 2%;
+                padding: 4px;
+                padding-left: 40px;
+                padding-right: 40px;
+                margin-top: 1px;
             }
             .logo{
                 display: block;
@@ -61,7 +63,7 @@
                 height: 10%;
                 background-color: white;
                 /* text-align: center; */
-                width: 82%;
+                width: 100%;
                 display: inline-block;
                 padding-left: 18%;
                 padding-bottom: 1.5%;
@@ -79,7 +81,7 @@
             input[type="text"]{
                 width: 35%;
                 height: 2.45em;
-                margin-top: 1em;
+                margin-top: 0.2em;
                 margin-left: 1.36em;
             }
             .categories span{
@@ -98,7 +100,7 @@
                 height: 30px;
             }
             
-            .container{
+            .container1{
                 display: flex;
             }
             button{
@@ -124,9 +126,9 @@
             .beginning{
                 background-color: white;
                 height: 100%;
-                margin-left: 8px;
+                margin-left: 10px;
                 width: 240px;
-                padding-left: 5px;
+                /* padding-left: 3px; */
                 box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.4);
                 margin-top: 12px;
 
@@ -137,14 +139,14 @@
             .dropdown1{
                 display: none;
             }
-            .container span{
+            .container1 span{
                 display: inline-block;
                 padding-left: 5px;
             }
             .deals img{
                 width: 175px;
                 padding: 0;
-                margin: 5px;
+                margin: 8px;
                 height: 180px;
             }
             .deals figcaption{
@@ -177,7 +179,10 @@
             .music line{
                 height: 40px;
             }
-            
+           .row {
+            width: 90%;
+            margin-left: 5%;
+           }
             @media screen and (max-width: 1000px) {
                 /* .buttons{
                     display: none;
@@ -241,7 +246,7 @@
                 .logo{
                     padding-left: 5%;
                 }
-                .container{
+                .container1{
                     display: block;
                 }
                 .deals{
@@ -249,7 +254,7 @@
                     width: 90%;
                 }
                 .beginning{
-                    margin-left: 5%;
+                    margin-left: 4%;
                     width: 232px;
                 }
                 .music{
@@ -264,7 +269,7 @@
                 .music{
                     height: 400px;
                 }
-                .container{
+                .container1{
                     display: block;
                 }
                 .beginning{
@@ -284,7 +289,7 @@
             <img src="images/logo4.png"><br>
             <a href="#"><span style="color: white;">Explore</span> <span style="color: #fce90d;">Plus</span><img src="images/plus.png"> </a></div>
             <div class="buttons">
-            <input type="text" placeholder="Search for products, brands and more" >
+            <input type="text" placeholder="Search for products, brands and more" ><i style="color: #346eeb; position: absolute; right: 40.5%; top: 35%;"class="fa-solid fa-magnifying-glass"></i>
             
             <a href="#" class="login">Login</a>
             <select name="more_options" id="more_options" >
@@ -322,9 +327,42 @@
             <span><a href="#"><img src="images/8.png"><figcaption>Travel</figcaption></a></span>
             <span><a href="#"><img src="images/9.png"><figcaption>Beauty,Toys & More<i class="fa-solid fa-angle-down"></i></figcaption></a></span>
         </div>
-        <div class="container">
+        <br>
+        <br>
+       
+          <div class="row">
+            <div class="col-12">
+                <div class="text-center">
+                    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active" data-bs-interval="5000">
+                            <img src="images/carousel1.png" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item" data-bs-interval="5000">
+                            <img src="images/carousel2.png" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item" data-bs-interval="5000">
+                            <img src="images/carousel3.png" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                </div>
+            </div>
+        </div>
+          <br>
+          <br>
+
+        <div class="container1">
             
-            <div class="deals">
+            <div class="deals" >
                 <span style="font-size: 25px; font-family:Arial, Helvetica, sans-serif; padding-left: 15px; padding-top: 20px;"><b>Deals of the Day </b>&nbsp;<i class="fa fa-clock-o" style="font-size:22px"></i>&nbsp;<span style="color: gray; font-size: 17px;">22:07:36 Left</span></span>
                 <button value="View All" >VIEW ALL</button>
                 <div class="line">
@@ -339,11 +377,14 @@
                 <span><a href="#"><img src="images/cat7.png"><figcaption><span style="color: black;">Badminton racquets</span> <br> <span style="color: green;">From &#x20B9;899</span> <br> <span style="color: gray;">Full graphite racquets</span></figcaption></a></span>    
                 
             </div>
-            <div class="beginning">
+            <div class="beginning" >
                 <a href="#"><img src="images/deals1.png" height="400" width="240"></a>
             </div>
+            </div>
+           
+           
             
-        </div>
+        
         <div class="music">
             <br>
             <span style="font-size: 25px; font-family:Arial, Helvetica, sans-serif; padding-left: 15px;"><b>Beauty and Makeup</b><br><span style="color: gray; font-size: 17px; padding-left: 5px;">Shop Now!</span></span>
