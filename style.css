@@ -283,25 +283,28 @@ footer i{
 .music span:hover img{
     transform: scale(1.1);
 }
+.dropdown3{
+    display: none;
+}
 
 @media screen and (max-width: 1000px) {
-    /* .buttons{
+    .buttons{
         display: none;
     }
-    .dropdown1 {
+    .dropdown3 {
         position: relative;
         display: inline-block;
-        padding-top: 4%;
+        padding-top: 1.2%;
         margin-left: 45%
     }
-    .dropbtn1{
+    .dropbtn3{
         background-color: #346eeb;
         border: none;
     }
-    .dropbtn1 i{
+    .dropbtn3 i{
         width: 20px;
     }
-    .drop-content1 {
+    .drop-content3 {
         display: none;
         position: absolute;
         background-color: white;
@@ -310,7 +313,7 @@ footer i{
         left: unset;
         right: 0%;
     }
-    .links1 {
+    .links3 {
         color: black;
         padding: 12px 16px;
         text-decoration: none;
@@ -319,19 +322,19 @@ footer i{
         font-weight: bold;
         border-bottom: 1px solid black;
     }
-    .links1:hover {
+    .links3:hover {
         background-color: #346eeb;
         color: white;
     }
-    .dropdown1:hover .drop-content1 {
+    .dropdown3:hover .drop-content3 {
         display: block;
     }
-    .dropdown1:hover .dropbtn1 {
+    .dropdown3:hover .dropbtn3 {
         background-color: white;
     }
-    .dropdown1:hover .dropbtn1 i{
+    .dropdown3:hover .dropbtn3 i{
         color: blue;
-    } */
+    }
     .navbar{
         width: 100vh;
 
@@ -363,7 +366,57 @@ footer i{
         height: 950px;
     }              
 }
-@media (min-width:1000px) and (max-width:1700px) {
+@media (min-width:1000px) and (max-width:1300px) {
+    .buttons{
+        display: none;
+    }
+    .dropdown3 {
+        position: relative;
+        display: inline-block;
+        padding-top: 1.2%;
+        margin-left: 45%
+    }
+    .dropbtn3{
+        background-color: #346eeb;
+        border: none;
+    }
+    .dropbtn3 i{
+        width: 20px;
+    }
+    .drop-content3 {
+        display: none;
+        position: absolute;
+        background-color: white;
+        min-width: 160px;
+        z-index: 1;
+        left: unset;
+        right: 0%;
+    }
+    .links3 {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        font-size: 18px;
+        font-weight: bold;
+        border-bottom: 1px solid black;
+    }
+    .links3:hover {
+        background-color: #346eeb;
+        color: white;
+    }
+    .dropdown3:hover .drop-content3 {
+        display: block;
+    }
+    .dropdown3:hover .dropbtn3 {
+        background-color: white;
+    }
+    .dropdown3:hover .dropbtn3 i{
+        color: blue;
+    }
+}
+@media (min-width:1300px) and (max-width:1700px) {
+    
     .deals{
         height: 700px;
     }
@@ -378,5 +431,10 @@ footer i{
     }
     .music{
         margin-left: 5%;
+    }
+}
+@media (min-width:1700px) and (max-width:1800px){
+    .deals{
+        height: 700px;
     }
 }
