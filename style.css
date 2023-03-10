@@ -1,5 +1,6 @@
 body{
     background-color: #e1e3e8;
+    width: 1850PX;
 }
 a{
     text-decoration: none;
@@ -22,7 +23,7 @@ a{
 .logo{
     display: block;
     float: left;
-    padding-left: 20%;
+    padding-left: 450px;
     font-style: italic;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
@@ -45,7 +46,7 @@ a{
     /* text-align: center; */
     width: 100%;
     display: inline-block;
-    padding-left: 18%;
+    padding-left: 400px;
     padding-bottom: 1.5%;
 }
 
@@ -59,7 +60,7 @@ a{
     width: 75px;
 }
 input[type="text"]{
-    width: 29%;
+    width: 500px;
     height: 2.45em;
     margin-top: 0.2em;
     margin-left: 1.36em;
@@ -110,11 +111,13 @@ input[type="text"]{
     margin-top: 15px;
     height: 400px;
     background-color: white;
-    margin-left: 5.5%;
+    margin-left: 95px;
     box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.4);;
-    width: 76%;
+    width: 1420px;
     
 }
+
+
 .beginning{
     background-color: white;
     height: 100%;
@@ -170,8 +173,8 @@ input[type="text"]{
     height: 40px;
 }
 .row {
-width: 90.5%;
-margin-left: 5%;
+width: 1693px;
+margin-left: 85px;
 }
 .menu-btn1 {
     background-color: #346eeb;
@@ -264,7 +267,8 @@ footer {
     color: white;
     text-align: center;
     font-size: 20px;
-    height: 100px;
+    height: 60px;
+    position: relative;
 }
 footer a{
     color: white;
@@ -287,7 +291,7 @@ footer i{
     display: none;
 }
 
-@media screen and (max-width: 1000px) {
+/* @media screen and (max-width: 1000px) {
     .buttons{
         display: none;
     }
@@ -335,18 +339,19 @@ footer i{
     .dropdown3:hover .dropbtn3 i{
         color: blue;
     }
-    .navbar{
+    /* .navbar{
         width: 100vh;
 
-    }
-    .categories{
+    }*/
+    /* .categories{
         width: 100vh;
         padding-left: 0;
         margin-left: 0;
     }
     .categories span{
         padding: 1%;
-    }
+    } */
+    /*
     .logo{
         padding-left: 5%;
     }
@@ -364,8 +369,8 @@ footer i{
     .music{
         margin-left: 5%;
         height: 950px;
-    }              
-}
+    }               */
+/* }
 @media (min-width:1000px) and (max-width:1300px) {
     .buttons{
         display: none;
@@ -413,19 +418,20 @@ footer i{
     }
     .dropdown3:hover .dropbtn3 i{
         color: blue;
-    }
-}
-@media (min-width:1300px) and (max-width:1700px) {
+    } */
+    /* .categories{
+        width: 100vh;
+        padding-left: 0;
+        margin-left: 0;
+    } 
+} */
+/* @media (min-width:1300px) and (max-width:1700px) {
     
-    .deals{
-        height: 700px;
-    }
+   
     .music{
         height: 400px;
     }
-    .container1{
-        display: block;
-    }
+   
     .beginning{
         margin-left: 5%;
     }
@@ -437,4 +443,4 @@ footer i{
     .deals{
         height: 700px;
     }
-}
+} */
