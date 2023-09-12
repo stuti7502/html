@@ -2,7 +2,7 @@ HTML & CSS practical
 
 
 Link to page:
-https://stutivithlani.github.io/html/
+https://stuti7502.github.io/html/
 
 A full view of website
 
